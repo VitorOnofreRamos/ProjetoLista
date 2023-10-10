@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         double precomedio = 0;
 
+        // Otimização - Adiciona os itens todos de uma vez, ao invés de um por um.
         List<Carta> cartas = Arrays.asList(
                 new Carta("Black Lotus", "Artefato", "Mítica", 10000.0),
                 new Carta("Lightning Bolt", "Feitiço Instantâneo", "Comum", 2.0),
